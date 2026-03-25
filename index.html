@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Kumar | Cybersecurity & Software Engineering</title>
+    <meta name="description" content="Portfolio of Harsh Kumar, a Cybersecurity and Software Engineering Enthusiast proficient in Python, Bash, and Linux.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="cursor-glow"></div>
+    <nav class="navbar">
+        <a href="#home" class="logo">{H}</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience & Certs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <p class="greeting">Hi, my name is</p>
+                <h1 class="name">Harsh Kumar.</h1>
+                <h2 class="title">I secure systems and build software.</h2>
+                <p class="summary">
+                    I'm a B.Tech Computer Science student specializing in <strong>Cybersecurity</strong> and <strong>Software Engineering</strong>. I enjoy finding vulnerabilities, protecting data, and writing robust code.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About & Education Section -->
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <h2 class="section-title"><span class="number">01.</span> About Me & Education</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Hello! I'm Harsh Kumar, deeply passionate about information security and software development. My journey involves breaking things to understand how to defend them, alongside learning full-stack and systemic software building.</p>
+                        <p>I actively participate in CTFs and practice on platforms like <strong>TryHackMe</strong> and <strong>HackTheBox</strong> to hone my skills.</p>
+                        
+                        <h3 class="mt-4" style="margin-top:20px; font-family:var(--font-heading); color:var(--text-main);">Achievements</h3>
+                        <ul class="styled-list">
+                            <li><strong>Winner of Magnitude Competition (2025):</strong> Awarded the title "Mr. Magnitude" for excellence in personality and stage presence.</li>
+                            <li><strong>Winner - Fashion Reboot (Mr. Concoction) (2025):</strong> First Position in Concoction 2025 – LPU's Intra University Tech Fusion.</li>
+                        </ul>
+                    </div>
+                    <div class="education-card glass-card">
+                        <h3 style="margin-bottom: 20px;">Education</h3>
+                        <div class="edu-item">
+                            <h4>Lovely Professional University</h4>
+                            <p class="deg">B.Tech - Computer Science and Engineering</p>
+                            <span class="date">Present | CGPA: 7.12</span>
+                        </div>
+                        <div class="edu-item">
+                            <h4>Kay Jay International Public School</h4>
+                            <p class="deg">Intermediate (74%)</p>
+                            <span class="date">March 2022</span>
+                        </div>
+                        <div class="edu-item">
+                            <h4>Sushila Devi Public School</h4>
+                            <p class="deg">Matriculation (75.2%)</p>
+                            <span class="date">March 2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding">
+            <div class="container">
+                <h2 class="section-title"><span class="number">02.</span> My Arsenal</h2>
+                <div class="skills-grid">
+                    <div class="skill-category glass-card">
+                        <i class="fa-solid fa-code icon"></i>
+                        <h3>Languages</h3>
+                        <p>Python, Bash, Java (Core)</p>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <i class="fa-solid fa-shield-halved icon"></i>
+                        <h3>Frameworks & Standards</h3>
+                        <p>OSINT, NIST, OWASP Top 10</p>
+                    </div>
+                    <div class="skill-category glass-card">
+                        <i class="fa-solid fa-terminal icon"></i>
+                        <h3>Tools & Platforms</h3>
+                        <p>Linux, TryHackMe, HackTheBox</p>
+                        <br/>
+                        <p style="font-size:0.85rem; color:var(--text-muted)">Plus: Soft Skills (Teamwork, Time Management, Adaptability)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="container">
+                <h2 class="section-title"><span class="number">03.</span> Some Things I've Built</h2>
+                <div class="project-list">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <p class="project-overline">Cybersecurity / Web Assessment</p>
+                            <h3 class="project-title">Exploiting & Securing a Database using SQL Injection</h3>
+                            <div class="project-description">
+                                <p>Exploited error-based, union-based, and boolean-based SQL injection vulnerabilities on DVWA using Linux and MySQL. Secured the application by implementing prepared statements, input validation, and least-privilege controls.</p>
+                            </div>
+                            <ul class="project-tech-list">
+                                <li>DVWA</li>
+                                <li>MySQL</li>
+                                <li>Linux</li>
+                                <li>OWASP Top 10</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/Harshkumar6630" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="images/project1.png" alt="SQL Injection Concept">
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card align-right">
+                        <div class="project-content">
+                            <p class="project-overline">Threat Intelligence</p>
+                            <h3 class="project-title">Deploying & Monitoring a Honeypot using Cowrie</h3>
+                            <div class="project-description">
+                                <p>Deployed a Cowrie SSH/Telnet honeypot on an isolated Linux system to simulate vulnerable services. Monitored brute-force attacks and compiled structured reports analyzing attacker behavior patterns and credentials used.</p>
+                            </div>
+                            <ul class="project-tech-list">
+                                <li>Cowrie</li>
+                                <li>Linux</li>
+                                <li>SSH/Telnet</li>
+                                <li>Threat Intelligence</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/Harshkumar6630" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="images/project2.png" alt="Honeypot Concept">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Training Section -->
+        <section id="experience" class="experience section-padding">
+            <div class="container">
+                <h2 class="section-title"><span class="number">04.</span> Training & Certifications</h2>
+                <div class="timeline">
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-date">June - July 2025</div>
+                        <h3>Summer Training on DSA Using Java</h3>
+                        <p>Intensive program covering Object-Oriented Programming and Data Structures (arrays, linked lists, stacks, trees, graphs). Optimized sorting/searching algorithms and worked with Azure Storage, VMs, and Key Vault. Solved 50+ DSA problems.</p>
+                    </div>
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-date">Nov 2024</div>
+                        <h3>TCP/IP and Advanced Topics</h3>
+                        <p>Certification focusing on deep networking concepts and protocols.</p>
+                    </div>
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-date">Nov 2024</div>
+                        <h3>Fundamental of Network Communications</h3>
+                        <p>Core networking concepts and communication principles.</p>
+                    </div>
+                    <div class="timeline-item glass-card">
+                        <div class="timeline-date">Oct 2024</div>
+                        <h3>The Bits and Bytes of Computer Networking</h3>
+                        <p>Foundational knowledge of computer networks, architectures, and operations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="container text-center">
+                <h2 class="section-title" style="justify-content:center"><span class="number">05.</span> What's Next?</h2>
+                <h2 class="contact-title">Get In Touch</h2>
+                <p class="contact-text">Currently looking for new opportunities in cybersecurity, penetration testing, and software engineering. My inbox is always open. Whether you have a question or just want to connect, I'll try my best to get back to you!</p>
+                <a href="mailto:hs3054554@gmail.com" class="btn btn-primary lg-btn">Say Hello</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/Harshkumar6630" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="http://www.linkedin.com/in/harsh-kumar-278b56242" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:hs3054554@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel:+919815106631"><i class="fa-solid fa-phone"></i></a>
+            </div>
+            <p>Built with <i class="fa-solid fa-heart" style="color:var(--accent)"></i> by Harsh Kumar</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
